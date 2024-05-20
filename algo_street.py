@@ -95,13 +95,6 @@ def compute_pressure(stock_history: list):
     return pos_pressure
 
 
-"""
-DO NOT EDIT BELOW THIS
-Below is the unit testing suite for this file.
-It provides all the tests that your code must pass to get full credit.
-"""
-
-
 class TestGeneratePressure:
     def run_unit_tests(self):
         self.test_example()
