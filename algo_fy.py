@@ -82,13 +82,6 @@ class AlgoFy:
         return top_k
 
 
-"""
-DO NOT EDIT BELOW THIS
-Below is the unit testing suite for this file.
-It provides all the tests that your code must pass to get full credit.
-"""
-
-
 class TestAlgoFy:
     def run_unit_tests(self):
         self.test_example()
