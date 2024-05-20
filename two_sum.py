@@ -1,7 +1,4 @@
 """
-This lab is primarily concerned with familiarizing you with the development environment and style of the labs.
-Complete the twoSum method
-When you run this file, all test cases should print true.
 
 2Sum Problem Statement
 Given an array of integers nums and an integer target, find the two integers that add up to a target.
@@ -9,14 +6,6 @@ The answer should be returned as an array of the two indices into the array  in 
 If there is no solution return None.
 
 You should assume that there is at most 1 solution
-
-EXAMPLE: Nums = [3,4,5,10] Target = 13
-3 (index 0) + 10 (index 3) = 13
-Return [0, 3]
-
-for int i in range(len(nums-1))
-    if nums[i] + nums[i+1] == target:
-    return [i, nums[i+1]]
 """
 
 
@@ -36,13 +25,6 @@ def two_sum(nums: list, target: int):
     # If there is no two values in the file that add to the target
     # then return None
     return None
-
-
-"""
-DO NOT EDIT BELOW THIS
-Below is the unit testing suite for this file.
-It provides all the tests that your code must pass to get full credit.
-"""
 
 
 class TestingBase:
